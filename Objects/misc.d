@@ -1,0 +1,11 @@
+.\objects\misc.o: SPL_src\misc.c
+.\objects\misc.o: .\SPL_inc\misc.h
+.\objects\misc.o: C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f7xx.h
+.\objects\misc.o: C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f746xx.h
+.\objects\misc.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm7.h
+.\objects\misc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\misc.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+.\objects\misc.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+.\objects\misc.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+.\objects\misc.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
+.\objects\misc.o: C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\system_stm32f7xx.h

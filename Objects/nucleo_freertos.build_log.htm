@@ -1,0 +1,80 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ims Microsoft, Microsoft, LIC=GE730-BHJXU-15YTV-P27HV-LC2LD-L1JKG
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.20
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DCM.DLL V1.13.7.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.9.0
+ 
+<h2>Project:</h2>
+D:\PROJECT\F746\F7\nucleo_freertos.uvprojx
+Project File Date:  06/26/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+src\main.c(59): warning:  #111-D: statement is unreachable
+  		vTaskDelete(NULL);
+src\main.c(73): warning:  #111-D: statement is unreachable
+  	vTaskDelete(NULL);
+src\main.c(64): warning:  #177-D: variable "i" was declared but never referenced
+  	uint8_t i;
+src\main.c(94): warning:  #111-D: statement is unreachable
+  	vTaskDelete(NULL);
+src\main.c(79): warning:  #177-D: variable "k" was declared but never referenced
+  	double k = 36.00;
+src\main.c(80): warning:  #177-D: variable "str" was declared but never referenced
+  	char str[12];
+src\main.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=6356 RO-data=488 RW-data=84 ZI-data=19276  
+".\Objects\nucleo_freertos.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM::CMSIS:CORE:5.1.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F7xx_DFP.2.10.0.pack
+                Keil::Device:Startup:1.2.2
+                STMicroelectronics STM32F7 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.2.2
+
+<h2>Collection of Component include folders:</h2>
+  D:\PROJECT\F746\F7\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+
+   * Component: Keil::Device:Startup:1.2.2
+      Source file:   MDK\Device\Source\ARM\STM32F74x_75x_OPT.s
+      Source file:   MDK\Device\Source\ARM\STM32F74x_75x_OTP.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f7xx.h
+      Source file:   Drivers\CMSIS\Device\ST\STM32F7xx\Source\Templates\arm\startup_stm32f746xx.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F7xx\Source\Templates\system_stm32f7xx.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
